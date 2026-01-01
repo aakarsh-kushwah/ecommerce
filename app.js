@@ -1,5 +1,5 @@
 import io from 'socket.io-client';
-const socket = io('https://kavach-backend.onrender.com'); // Aapka Live Render URL
+const socket = io('https://ecommerce-z2fr.onrender.com'); // Aapka Live Render URL
 
 // Inside useEffect
 socket.emit('join_mission', {
